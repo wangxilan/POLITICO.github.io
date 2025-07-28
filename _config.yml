@@ -1,3 +1,13 @@
 theme: jekyll-theme-minimal
 title: 王希岚政治评论
 description: 一个PKU中央选调的细碎荒唐言
+comments:
+  provider: "giscus" # 或 "disqus"
+  giscus:
+    repo: yourname/yourrepo
+    repo_id: xxxxx
+    category: General
+    category_id: xxxxx
+    mapping: pathname
+    reactions_enabled: 1
+    theme: preferred_color_scheme
